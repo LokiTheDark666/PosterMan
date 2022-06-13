@@ -1,4 +1,5 @@
 package ru.netology.manager;
+
 import ru.netology.domain.Film;
 
 public class PosterManager {
@@ -29,8 +30,7 @@ public class PosterManager {
         int resultLength;
         if (filmsQuantity > films.length) {
             resultLength = films.length;
-        }
-        else {
+        } else {
             resultLength = filmsQuantity;
         }
         Film[] result = new Film[resultLength];
