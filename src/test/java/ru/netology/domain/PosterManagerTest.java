@@ -1,10 +1,9 @@
-package ru.netology.test;
+package ru.netology.domain;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import ru.netology.manager.PosterManager;
-import ru.netology.domain.Film;
 
 public class PosterManagerTest {
 
